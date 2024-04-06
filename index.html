@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adventure Architect</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="navbarContainer shadowTrasfroms">
+      <div class="logoContainer">
+        <img class="brandLogo" src="./logo.png" alt="LOGO" />
+      </div>
+      <input type="checkbox" id="menu-toggle" />
+      <label class="iconDiv" for="menu-toggle">
+        <i class="fa-solid fa-bars iconChech"></i>
+      </label>
+      <!-- --------------------------------SUB-NAVBAR  CONAINER ---------------------------------- -->
+
+      <div class="subNavbar">
+        <hr />
+        <a class="home-btn" href="#home">Home</a>
+        <a href="#rent">Rent Car</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+        <!-- --------------------------------SEARCH BAR INPUT ---------------------------------- -->
+
+        <div class="searchContainer">
+          <input
+            type="text"
+            name="search"
+            placeholder="Search..."
+            class="search-input"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!-- --------------------------------SEARCH BAR BUTTON ---------------------------------- -->
+
+        <button class="btnNavbar">
+          <a href="#contactUs">Contact Us</a>
+        </button>
+        <form class="d-flex my-3 d-block d-lg-none">
+          <input
+            class="form-control me-2 border-200 bg-light search-input"
+            type="search"
+            placeholder="Search..."
+            aria-label="Search"
+          /><button class="btn btn-outline-primary btnSearch" type="submit">
+            Go
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!--Navigation bar-->
+    <!-- <nav class="nav">
+        <nav class="navbarContainer shadowTrasfroms">
+            <div class="logoContainer">
+              <img class="brandLogo" src="./logo.png" alt="LOGO" />
+            </div>
+            <input type="checkbox" id="menu-toggle" />
+            <label class="iconDiv" for="menu-toggle">
+              <i class="fa-solid fa-bars iconChech"></i>
+            </label>
+      logo and name
+      <div class="logo">
+        <img src="./logo.png" alt="logo" class="logo1" />
+        <h1 class="queen">Queens Travels</h1>
+        <label for="bar"><i class="fa-solid fa-bars iconDummy"></i> </label>
+        <input type="checkbox" id="bar" />
+      </div>
+      nav items
+      <div class="item">
+        <a class="home-btn" href="#home">Home</a>
+        <a href="#rent">Rent Car</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+      </div>
+      login and  sign up
+      <div class="btn">
+        <input class="login" type="button" value="Log in" >
+        <input type="button" value="Sign Up" />
+        <a href="./home.html"
+          ><input class="login" type="button" value="Log in"
+        /></a>
+      </div>
+    </nav> -->
+    <!--home page first container-->
+    <div class="home" id="home">
+      <div class="main">
+        <div class="content">
+          <p class="txt1">
+            Easy And Fast Way To <span style="color: #ec321a8c">Rent</span> Your
+            Car
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            accusamus nobis similique ab praesentium itaque dolore quidem
+            debitis distinctio laborum!
+          </p>
+          <div class="btn">
+            <button class="car">Rent Car</button>
+          </div>
+        </div>
+        <!--car image 1-->
+        <div class="right">
+          <img src="./img5.jpeg" alt="img1" />
+        </div>
+      </div>
+    </div>
+    <!--second page-->
+    <section class="sec-sec">
+      <div class="main-sec">
+        <div class="pick">
+          <label for="location">Pick Up Location</label>
+          <p><i class="fa-solid fa-location-dot"></i> Karaikal,Pondichery</p>
+        </div>
+        <!--zoom box-->
+        <div class="pick">
+          <label for="location">Drop Location</label>
+          <p><i class="fa-solid fa-location-dot"></i> Munnar,Kerala</p>
+        </div>
+
+        <div class="pick">
+          <label for="location">Pick Up Date</label>
+          <p><i class="fa-solid fa-calendar-days"></i> 30-03-2024</p>
+          <!-- <input type="date" name="date" id=""> -->
+        </div>
+
+        <div class="pick">
+          <label for="location">Return Date</label>
+          <p><i class="fa-solid fa-calendar-days"></i> 05-04-2024</p>
+        </div>
+
+        <div class="pick">
+          <input type="button" value="Search Car" />
+        </div>
+      </div>
+    </section>
+    <!--card for cars-->
+    <section class="car-sec" id="rent">
+      <div class="txt">
+        <p class="txt1">Latest <span>Inventory</span></p>
+        <p class="txt2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsa!
+        </p>
+      </div>
+
+      <div class="main-sec">
+        <!--card1-->
+        <div class="box">
+          <img src="./car1.jpeg" alt="aru1" />
+
+          <div class="details">
+            <p class="car-name">Toyoto Etios</p>
+
+            <div class="review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <p>( 10k Reviews )</p>
+            </div>
+
+            <div class="feature">
+              <p><i class="fa-solid fa-chair"></i> 4 Seats</p>
+              <p><i class="fa-solid fa-charging-station"></i>Availabe</p>
+              <p><i class="fa-solid fa-car-battery"></i>Availabe</p>
+              <p><i class="fa-solid fa-cable-car"></i> Availabe</p>
+              <p><i class="fa-solid fa-car-side"></i> Availabe</p>
+              <p><i class="fa-solid fa-caravan"></i> Not Availabe</p>
+            </div>
+
+            <!-- <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div> -->
+          </div>
+        </div>
+
+        <!--card 2-->
+        <div class="box">
+          <img src="./car2.jpeg" alt="aru2" />
+          <div class="details">
+            <p class="car-name">Mahindra Marazzo</p>
+
+            <div class="review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <p>( 10k Reviews )</p>
+            </div>
+
+            <div class="feature">
+              <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+              <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+              <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+              <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+              <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+              <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+            </div>
+
+            <div class="price">
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+        <!--card 3-->
+        <div class="box">
+          <img src="./car3.jpeg" alt="yasar" />
+          <div class="details">
+            <p class="car-name">Shift</p>
+
+            <!-- <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div> -->
+          </div>
+        </div>
+        <!--card 4-->
+        <div class="box">
+          <img src="./car4.jpeg" alt="karthi" />
+          <div class="details">
+            <p class="car-name">Xylo</p>
+
+            <!-- <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div> -->
+          </div>
+        </div>
+        <!--card 5-->
+
+        <div class="box">
+          <img src="./car5.jpeg" alt="yas2" />
+          <div class="details">
+            <p class="car-name">Tavera</p>
+
+            <!-- <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div> -->
+          </div>
+        </div>
+        <!--card 6-->
+        <div class="box">
+          <img src="./car6.jpeg" alt="change" />
+          <div class="details">
+            <p class="car-name">Xylo</p>
+
+            <!-- <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div> -->
+          </div>
+        </div>
+        <div class="btn">
+          <a href="./viewall.html"><input type="button" value="View All" /></a>
+        </div>
+      </div>
+    </section>
+    <!--about us-->
+    <section class="support-sec" id="about">
+      <div class="txt">
+        <p class="txt1">Why <span>Choose</span> Us</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+          cupiditate!
+        </p>
+      </div>
+
+      <div class="main-sec">
+        <div class="box">
+          <i class="fa-solid fa-phone"></i>
+          <div class="txt-sec">
+            <p class="txt1">24 Hour Support</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+              doloremque sequi animi ab corporis, necessitatibus eum cum vel
+              rerum nisi.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-flag-checkered"></i>
+          <div class="txt-sec">
+            <p class="txt1">Best Price</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+              doloremque sequi animi ab corporis, necessitatibus eum cum vel
+              rerum nisi.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-certificate"></i>
+          <div class="txt-sec">
+            <p class="txt1">Verified License</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+              doloremque sequi animi ab corporis, necessitatibus eum cum vel
+              rerum nisi.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa-regular fa-circle-xmark"></i>
+          <div class="txt-sec">
+            <p class="txt1">Free Cancelation</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+              doloremque sequi animi ab corporis, necessitatibus eum cum vel
+              rerum nisi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--achievement section-->
+    <section class="achie-sec">
+      <div class="txt">
+        <p class="txt1">Our <span>Achievement</span></p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+          provident.
+        </p>
+      </div>
+
+      <div class="main-sec">
+        <div class="box">
+          <p class="txt1">4000+</p>
+          <p>Active Member</p>
+        </div>
+
+        <div class="box">
+          <p class="txt1">3000+</p>
+          <p>Car Color</p>
+        </div>
+
+        <div class="box">
+          <p class="txt1">6000+</p>
+          <p>Car Model</p>
+        </div>
+
+        <div class="box">
+          <p class="txt1">10k</p>
+          <p>Positive Rating</p>
+        </div>
+      </div>
+    </section>
+    <!--contact us page-->
+    <section class="start-sec" id="contact">
+      <div class="main-sec">
+        <div class="left">
+          <p class="txt1">Ready To Get Start?</p>
+          <p class="txt2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Necessitatibus ipsa eos neque quo consectetur totam perferendis aut
+            quos sequi expedita.
+          </p>
+          <div class="btn">
+            <button>Contact Us</button>
+          </div>
+        </div>
+
+        <div class="right">
+          <img src="./car6.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="foot-sec">
+      <div class="logo">
+        <h1>Adventure Architect</h1>
+      </div>
+
+      <div class="copy">
+        <p>Copyright &copy; 2024 Design By Nayaki</p>
+      </div>
+
+      <div class="item">
+        <a>Website Terms</a>
+        <a>Contact Us</a>
+        <a>Privacy Policy</a>
+      </div>
+    </footer>
+  </body>
+</html>

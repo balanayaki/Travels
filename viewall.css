@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.car-sec {
+    /* height: 192vh; */
+    /* padding: 30px; */
+    /* justify-content: center; */
+    flex-direction: column;
+    display: flex;
+    /* background-color: #17c5be; */
+}
+.car-sec .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    /* margin-top: 150px; */
+    /* background-color: #1c243a; */
+}
+
+.car-sec .txt .txt1 {
+    font-size: 3rem;
+    font-weight: 700;
+    /* margin-top: 43px; */
+}
+
+.car-sec .txt .txt1 span {
+    color: #0043ff8c;
+}
+
+
+.car-sec .btn input {
+    padding: 10px 25px;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.car-sec .main-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* margin-top: 30px; */
+    column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    /* background-color: chocolate; */
+    /* height: 500px; */
+}
+
+.car-sec .main-sec .box {
+    /* background: red; */
+    overflow: hidden;
+    width: 335px;
+    /* height: 356px; */
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+}
+.car-sec .main-sec .box img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    /* box-shadow: inset; */
+}
+
+.car-sec .main-sec .box .details {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    row-gap: 15px;
+}
+
+.car-sec .main-sec .box .details .car-name {
+    font-size: 23px;
+    font-weight: 700;
+    /* color: cadetblue; */
+}
+
+.car-sec .main-sec .box .review {
+    display: flex;
+    column-gap: 5px;
+}
+
+.car-sec .main-sec .box .review i {
+    color: orange;
+}
+
+.car-sec .main-sec .box .review p {
+    color: darkgray;
+}
+
+.car-sec .main-sec .box .feature {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    row-gap: 20px;
+}
+
+.car-sec .main-sec .box .feature p i {
+    color: #0043ff8c;
+    font-size: 20px;
+}
+
+.car-sec .main-sec .box .price {
+    display: flex;
+    border-top: 1px solid darkgray;
+    column-gap: 167px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-sec .main-sec .box .price p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.car-sec .main-sec .box .price button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #0043ff8c;
+    height: 35px;
+    width: 100px;
+}
